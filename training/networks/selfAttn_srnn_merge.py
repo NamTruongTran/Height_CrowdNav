@@ -1,8 +1,11 @@
 import numpy as np
 import torch.nn as nn
 import torch
-from training.networks.utils import init
-from training.networks.network_utils import RNNBase, reshapeT
+
+# from training.networks.utils import init
+# from training.networks.network_utils import RNNBase, reshapeT
+from .utils import init
+from .network_utils import RNNBase, reshapeT
 
 class SpatialEdgeSelfAttn(nn.Module):
     def __init__(self, config):

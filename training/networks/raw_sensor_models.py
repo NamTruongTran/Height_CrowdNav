@@ -1,8 +1,8 @@
 import torchvision.models as models
-from training.networks.network_utils import Flatten, RNNBase
+
+# from training.networks.network_utils import Flatten, RNNBase
+from .network_utils import Flatten, RNNBase
 from .selfAttn_srnn_merge import *
-
-
 
 class LIDAR_CNN_GRU_IL(nn.Module):
     '''

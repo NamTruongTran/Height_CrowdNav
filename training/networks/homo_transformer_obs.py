@@ -2,8 +2,10 @@ import torch.nn as nn
 import torch
 import numpy as np
 
-from training.networks.utils import init
-from training.networks.network_utils import Flatten, reshapeT, EndRNNLidar
+# from training.networks.utils import init
+# from training.networks.network_utils import Flatten, reshapeT, EndRNNLidar
+from .utils import init
+from .network_utils import Flatten, reshapeT, EndRNNLidar
 from .dsrnn_obs_vertex import HumanHumanEdgeRNN
 from .selfAttn_srnn_merge import SpatialEdgeSelfAttn
 

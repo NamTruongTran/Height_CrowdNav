@@ -3,8 +3,10 @@ from torch.autograd import Variable
 import torch
 import numpy as np
 
-from training.networks.utils import init
-from training.networks.network_utils import reshapeT, RNNBase, Flatten, EndRNNLidar
+# from training.networks.utils import init
+# from training.networks.network_utils import reshapeT, RNNBase, Flatten, EndRNNLidar
+from .utils import init
+from .network_utils import reshapeT, RNNBase, Flatten, EndRNNLidar
 
 class HumanNodeRNN(RNNBase):
     '''

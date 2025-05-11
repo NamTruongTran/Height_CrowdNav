@@ -1,5 +1,5 @@
 
-from training.networks.distributions import Bernoulli, Categorical, DiagGaussian
+from .distributions import Bernoulli, Categorical, DiagGaussian
 from .raw_sensor_models import *
 from .selfAttn_srnn_merge_lidar import selfAttn_merge_SRNN_lidar
 from .dsrnn_obs_vertex import DSRNN_obs_vertex

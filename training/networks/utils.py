@@ -1,6 +1,7 @@
 import torch.nn as nn
-from training.networks.envs import VecNormalize
 
+# from training.networks.envs import VecNormalize
+from .envs import VecNormalize
 
 
 def get_vec_normalize(venv):

@@ -2,8 +2,9 @@ import torch.nn as nn
 import torch
 
 from .selfAttn_srnn_merge import selfAttn_merge_SRNN
-from training.networks.network_utils import Flatten, EndRNNLidar, reshapeT
 
+# from training.networks.network_utils import Flatten, EndRNNLidar, reshapeT
+from .network_utils import Flatten, EndRNNLidar, reshapeT
 
 class selfAttn_merge_SRNN_lidar(selfAttn_merge_SRNN):
     """
